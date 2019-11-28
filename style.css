@@ -1,0 +1,187 @@
+body 
+{
+    background-color: #b07cf7;
+}
+
+h1 {
+    font-size: 90px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 700;
+text-align: center;
+margin-top: 100px;
+}
+
+p.dolore { 
+    max-width: 563px;
+    max-height: 66px;
+    font-size: 17px;
+    font-family: "Raleway";
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 35px auto;
+    opacity: 0.8;
+}
+
+.main {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.mohito { 
+    display: inline-block;
+    position: relative;
+    height: 326px;
+    width: 375px;
+    margin: 0px 10px;
+}
+
+
+.mohito p {
+    position: absolute;
+    top: 195px;
+    left: 30px;
+    width: 370px;
+height: 79px;
+font-size: 20px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 700;
+text-align: justify;
+}
+
+.day {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    width: 60px;
+height: 60px;
+border-radius: 5px;
+background-color: #262626;
+opacity: 0.6;
+}
+
+.day span.top {
+    font-size: 32px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 700;
+}
+
+.day span.nov {
+    font-size: 32px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 700;
+}
+
+
+.soup {
+    display: inline-block;
+    position: relative;
+    height: 326px;
+    width: 375px;
+    margin: 0px 10px;
+}
+.soup p {
+    position: absolute;
+    top: 195px;
+    left: 30px;
+    width: 370px;
+height: 79px;
+font-size: 20px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 700;
+text-align: justify;
+}
+
+p.auskteez1 {
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 25px;
+color: #ffffff;
+opacity: 0.8;
+}
+
+
+
+.raspberry { 
+    display: inline-block;
+    position: relative;
+    height: 326px;
+    width: 375px;
+    margin: 0px 10px;
+}
+
+.raspberry p{
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    width: 370px;
+height: 79px;
+font-size: 20px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 700;
+text-align: justify;
+}
+
+p.auskteez3 {
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    font-family: "Raleway";
+font-weight: 200;
+font-size: 13px;
+line-height: 25px;
+color: #ffffff;
+opacity: 0.8;
+    }
+
+* {box-sizing: border-box;}
+*{transition: all .1s ease-in;}
+
+button {display: block;
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 300;
+background-color: #f72b3b;
+text-align: center;
+margin: 25px auto;
+border: none;
+border-radius: 7px;
+color: #ffffff;
+cursor: pointer;
+}
+button:hover {
+    transform: scale(1.1);
+}
+.mohito:hover {
+        transform: rotateZ(5deg);
+}
+.soup:hover {
+    transform: scale(1.05);
+}
+.raspberry:hover {
+    transform: translateX(10px);
+}
+
